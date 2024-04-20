@@ -10,7 +10,6 @@ app.get("/", async (_, res) => {
     fs.readdir( path.join(__dirname, "./src/"), (err, files) => {
         if( err ) throw err;
         files.forEach( file => {
-            console.log(file);
             html = html + `<a href="/${file}">${file}</a><br>`
         })
         html += "</center>";

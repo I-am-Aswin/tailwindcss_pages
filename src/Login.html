@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">;
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="root w-full h-screen bg-gradient-to-tr from-slate-500 via-white to-slate-500 bg-opacity-10 font-serif flex justify-center items-center">
+        <div class="lg:w-2/5 lg:h-3/4 border bg-slate-700 text-slate-100 border-purple mx-auto shadow-xl border-opacity-50 rounded-3xl px-8 py-4">
+          
+          <form class="flex flex-col justify-center items-center w-full h-full gap-6">
+            <p class="text-5xl text-center mb-4">Hello Everyone</p>
+            <div class="w-3/4">
+              <label htmlFor="UserName" class="text-slate-400 block text-xl">
+                Username :
+              </label>
+              <input
+                type="text"
+                id="UserName"
+                class="px-8 py-3 w-full bg-purple bg-opacity-20 text-white text-xl border border-white rounded-lg placeholder-slate-100 placeholder-opacity-30 hover:bg-opacity-35 focus:outline-none"
+                placeholder="Username"
+              />
+            </div>
+  
+            <div class="w-3/4">
+              <label htmlFor="Password" class="text-slate-400 block text-xl">
+                Password :
+              </label>
+              <input
+                type="password"
+                id="Password"
+                placeholder="Password"
+                class="px-8 py-3 w-full bg-purple bg-opacity-20 text-white text-xl border border-white rounded-lg placeholder-slate-100 placeholder-opacity-30 hover:bg-opacity-35 focus:outline-none"
+              />
+            </div>
+  
+            <input type="submit" class="px-8 py-2 bg-purple rounded-lg w-3/4 font-semibold hover:bg-opacity-85 hover:border hover:border-white transition-all ease-in-out delay-50 mt-4" />
+          </form>
+        </div>
+      </div>
+</body>
+</html>
